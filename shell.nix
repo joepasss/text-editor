@@ -3,5 +3,8 @@
 pkgs.mkShell {
   buildInputs = [
     pkgs.gcc
-  ];    
+  ];
+  shellHook = ''
+    bash
+  '';
 }
