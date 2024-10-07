@@ -1,10 +1,10 @@
 { pkgs ? import <nixpkgs> {} }:
 
 pkgs.mkShell {
-  buildInputs = [
-    pkgs.gcc
-  ];
-  shellHook = ''
-    bash
-  '';
+    buildInputs =[
+      pkgs.gcc
+    ];
+    shellHook = ''
+      bash
+    '';
 }
